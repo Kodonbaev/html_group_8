@@ -208,7 +208,7 @@ body {
     color: #fff;
     font-size: 27px;
     padding-left: 27px;
-    margin-bottom: 47px;
+    margin-bottom: 27px;
 }
 .main-text .fa-arrow-up {
     display: inline-block;
@@ -244,12 +244,13 @@ body {
 }
 .main-about {
     color: #2c3e50;
-    font-size: 25px;
+    font-size: 27px;
     padding-left: 12px;
+    margin: 0;
 }
 .about-text {
     color: #2c3e50;
-    font-size: 14px;
+    font-size: 13px;
     padding-left: 9px;
 }
 .link-box {
@@ -411,13 +412,18 @@ body {
         margin: 0 21px 0 10px;
     }
     .about-box {
-        width: 33.3%;
+        width: 31%;
         float: left;
+        padding:17px 1px 60px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 14px;
     }
     .service-box {
-        width: 16%;
+        width: 14%;
         float: left;
-        margin: 57px 0;
+        margin: 57px 15px;
     }
 
     .text-service {
@@ -425,19 +431,59 @@ body {
     }
     .price-box {
         background: #f7f7f7;
+        width: 23%;
+        margin-right: 30px;
+        float: left;
     }
+
     .price-main {
         color: #fff;
         font-size: 18px;
-        width: 25%;
-        float: left;
         padding: 10px 20px;
         font-weight:bold;
-
     }
     .price-status {
         color: #314559;
         font-size: 18px;
-        
+        border-bottom: 1px solid #efefef;
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        font-weight: bold;
+    }
+    .price-box a {
+        display: block;
+        font-size: 14px;
+        color: #314559;
+        border-bottom: 1px solid #efefef;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-decoration: none;
+        padding: 20px;
+        font-weight:bold;
+    }
+    .about.container a:nth-child(3) {
+        color: #d34346;
+    }
+    .price-box a i {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-right: 10px;
+        font-weight:bold;
+    }
+    .last-price {
+        margin: 0;
+    }
+    .price-only {
+        color: #d34346;
+    }
+    .price-only-1 {
+        background: #c62f31;
+        border-left: 11px solid #be3639;
+        color: #fff;
     }
 }
