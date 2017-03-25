@@ -130,14 +130,11 @@ body {
     width: 100%;
     position: relative;
 }
-
 .slider-text {
-    position: absolute;
-    top: 56%;
-    left: 95px;
-    width: 571px;
+    width: 100%;
     color: #fff;
 }
+
 
 .slider-main {
     background: #d05054;
@@ -163,6 +160,154 @@ body {
     padding: 17px 21px;
     box-sizing: border-box;
 }
+.new-vision {
+    width: 100%;
+    margin: 20px 0 49px;
+}
+.box-new {
+    margin: 19px 0;
+}
+.icon-box {
+    float: left;
+    width: 10%;
+    margin: 10px;
+}
+.icon-box i {
+    font-size: 32px;
+    color: #2c3e50;
+    box-sizing: border-box;
+    padding: 0;
+}
+.fa-leaf {
+    margin: 0;
+}
+.content-box {
+    width: 75%;
+    float: left;
+}
+
+.main-new {
+    color: #bd2c30;
+    margin: 0;
+    font-size: 19px;
+    display: inline-block;
+}
+.content-box span {
+    font-size: 15px;
+    color: #212121;
+}
+/*** About ***/
+
+.about {
+    background: #efefef;
+}
+.main-text {
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 900;
+    color: #fff;
+    font-size: 27px;
+    padding-left: 27px;
+    margin-bottom: 47px;
+}
+.main-text .fa-arrow-up {
+    display: inline-block;
+    float: right;
+    width: 35px;
+    height: 35px;
+    padding: 7px 8px;
+    box-sizing: border-box;
+    background: #c62f31;
+    font-size: 20px;
+    color: #d34346;
+
+}
+.main-text-blue  {
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 900;
+    color: #fff;
+    font-size: 27px;
+    padding-left: 27px;
+    margin: 0;
+}
+.main-text-blue .up {
+    display: inline-block;
+    float: right;
+    width: 35px;
+    height: 35px;
+    padding: 7px 8px;
+    box-sizing: border-box;
+    background: #22303e;
+    font-size: 20px;
+    color: #314559;
+}
+.main-about {
+    color: #2c3e50;
+    font-size: 25px;
+    padding-left: 12px;
+}
+.about-text {
+    color: #2c3e50;
+    font-size: 14px;
+    padding-left: 9px;
+}
+.link-box {
+    display: block;
+}
+.link-box a {
+    margin: 0 15px;
+    color: #d34346;
+}
+.about-text_last {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+}
+.about-text_last::before {
+    content: '';
+    position: absolute;
+    bottom: -23px;
+    left: 29px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 27px 28px 0px;
+    border-color: transparent #f7f7f7 transparent transparent;
+}
+.jhon {
+    display: block;
+    margin-left: 65px;
+    color: #d34346;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*** Service ***/
+.service-box {
+    text-align: center;
+}
+.icon-service {
+    display: block;
+    font-size: 35px;
+    color: #d34346;
+    margin: 0 0 20px 0;
+}
+.text-service {
+    font-size: 12px;
+    color: #212121;
+
+}
+.analysis i {
+    background: url("../images/analis.png") center center no-repeat;
+    padding: 31px;
+
+}
+
+
+
+
+
 @media screen and (min-width: 900px) {
     .logo {
         float: left;
@@ -233,5 +378,66 @@ body {
         font-size: 20px;
         padding: 11px 7px 24px;
     }
+    .slider-text {
+        position: absolute;
+        top: 56%;
+        left: 95px;
+        width: 571px;
+        color: #fff;
+    }
+    .box-new {
+        width: 25%;
+        float: left;
+    }
 
+    .icon-box {
+        float: left;
+        width: 15%;
+        margin: 0 25px 0 10px;
+    }
+    .last-box {
+        margin: 0 21px 0 34px;
+    }
+    .last-box-1 {
+        margin-left: 26px;
+    }
+    .content-box {
+        width: 66%;
+    }
+    .icon-box i {
+        padding: 0 10px;
+    }
+    .fa-leaf {
+        margin: 0 21px 0 10px;
+    }
+    .about-box {
+        width: 33.3%;
+        float: left;
+    }
+    .service-box {
+        width: 16%;
+        float: left;
+        margin: 57px 0;
+    }
+
+    .text-service {
+        text-align: left;
+    }
+    .price-box {
+        background: #f7f7f7;
+    }
+    .price-main {
+        color: #fff;
+        font-size: 18px;
+        width: 25%;
+        float: left;
+        padding: 10px 20px;
+        font-weight:bold;
+
+    }
+    .price-status {
+        color: #314559;
+        font-size: 18px;
+        
+    }
 }
